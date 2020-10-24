@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>form page!</title>
+</head>
+<body bgcolor="silver">
+<form action="/details" method="get">
+<h1>Enter your details below:</h1><br><br>
+Enter your name:<br>
+<input type="text" name="first" placeholder="FIRST" required>&nbsp;&nbsp; <input type="text" name="last" placeholder="LAST" required><br><br>
+Enter your E-mail:<br><input type="email" name="email" placeholder="abc@gmail.com" required><br><br>
+Select the Gender:<br>
+<select name="gender" required>
+    <option>--select--</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+</select>
+<br><br>
+Enter your college name:<br>
+<input type="text" name="college" required><br><br>
+Enter your contact number:<br>
+<input type="tel" name="phone" maxlength="10" required><br><br>
+<button type="reset">Reset form</button>&nbsp;&nbsp;
+<button type="submit">Submit Details</button>
+
+</form>
+</body>
+</html>
